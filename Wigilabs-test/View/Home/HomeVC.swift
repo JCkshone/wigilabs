@@ -13,6 +13,7 @@ class HomeVC: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var headerView: UIView!
     
+    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
     private typealias homeItemCell = HomeItemCollectionViewCell
     
     struct Constants {
@@ -46,11 +47,11 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let y = 160 - (scrollView.contentOffset.y + 160)
-        let h = max(0, y)
-        headerView.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: h)
+        let h = max(60, y)
+        //headerView.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: h)
         
         UIView.animate(withDuration: 0.3) {
-            //self.headerView.frame.origin.y = 160 + y
+            self.heightConstraint.constant = h
         }
     }
 }

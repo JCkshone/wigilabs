@@ -75,6 +75,7 @@
                     <connections>
                         <outlet property="collectionView" destination="6S1-tf-dv5" id="fW7-Ns-kPv"/>
                         <outlet property="headerView" destination="eY9-Ej-PVd" id="rBm-2C-j5d"/>
+                        <outlet property="heightConstraint" destination="cl7-HN-zty" id="yhH-1k-81G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUX-XB-jL7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
