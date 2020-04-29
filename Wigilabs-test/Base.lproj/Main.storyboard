@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6S1-tf-dv5">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="168" width="414" height="645"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5iE-0Y-5k0">
                                     <size key="itemSize" width="50" height="50"/>
@@ -40,11 +40,32 @@
                                     <outlet property="delegate" destination="dnv-xe-WMV" id="4XP-vW-7nc"/>
                                 </connections>
                             </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY9-Ej-PVd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total: 120" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPA-gb-VLb">
+                                        <rect key="frame" x="16" y="105" width="382" height="30"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.039215686270000001" green="0.10980392160000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ZPA-gb-VLb" firstAttribute="leading" secondItem="eY9-Ej-PVd" secondAttribute="leading" constant="16" id="X4K-LT-PqY"/>
+                                    <constraint firstItem="ZPA-gb-VLb" firstAttribute="centerY" secondItem="eY9-Ej-PVd" secondAttribute="centerY" multiplier="1.5" id="Ynp-Re-whS"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZPA-gb-VLb" secondAttribute="trailing" constant="16" id="b6U-ek-gle"/>
+                                    <constraint firstAttribute="height" constant="160" id="cl7-HN-zty"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="eY9-Ej-PVd" firstAttribute="top" secondItem="I9h-Gc-jhg" secondAttribute="top" id="0mB-bR-NnW"/>
+                            <constraint firstItem="bK5-h5-8n6" firstAttribute="trailing" secondItem="eY9-Ej-PVd" secondAttribute="trailing" id="719-Il-NqL"/>
                             <constraint firstItem="bK5-h5-8n6" firstAttribute="trailing" secondItem="6S1-tf-dv5" secondAttribute="trailing" id="KuS-8g-L16"/>
-                            <constraint firstItem="6S1-tf-dv5" firstAttribute="top" secondItem="bK5-h5-8n6" secondAttribute="top" id="Loa-UL-QG0"/>
+                            <constraint firstItem="eY9-Ej-PVd" firstAttribute="leading" secondItem="bK5-h5-8n6" secondAttribute="leading" id="d0k-xu-eos"/>
+                            <constraint firstItem="6S1-tf-dv5" firstAttribute="top" secondItem="eY9-Ej-PVd" secondAttribute="bottom" constant="8" id="dA0-c2-N9r"/>
                             <constraint firstItem="6S1-tf-dv5" firstAttribute="leading" secondItem="bK5-h5-8n6" secondAttribute="leading" id="m0z-Ui-SaD"/>
                             <constraint firstItem="bK5-h5-8n6" firstAttribute="bottom" secondItem="6S1-tf-dv5" secondAttribute="bottom" id="sgh-zJ-LC6"/>
                         </constraints>
@@ -53,11 +74,12 @@
                     <tabBarItem key="tabBarItem" title="" id="Lu1-2j-33u"/>
                     <connections>
                         <outlet property="collectionView" destination="6S1-tf-dv5" id="fW7-Ns-kPv"/>
+                        <outlet property="headerView" destination="eY9-Ej-PVd" id="rBm-2C-j5d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUX-XB-jL7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="-698"/>
+            <point key="canvasLocation" x="-442.02898550724643" y="-698.4375"/>
         </scene>
         <!--Tab Bar With Floating ButtonVC-->
         <scene sceneID="Fjg-Fk-LsS">

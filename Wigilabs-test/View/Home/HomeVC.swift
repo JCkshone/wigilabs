@@ -11,6 +11,7 @@ import UIKit
 class HomeVC: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var headerView: UIView!
     
     private typealias homeItemCell = HomeItemCollectionViewCell
     
@@ -41,5 +42,15 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         CGSize(width: (UIScreen.main.bounds.width / 2) - 8, height: (UIScreen.main.bounds.height / 4) - 40)
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let y = 160 - (scrollView.contentOffset.y + 160)
+        let h = max(0, y)
+        headerView.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: h)
+        
+        UIView.animate(withDuration: 0.3) {
+            //self.headerView.frame.origin.y = 160 + y
+        }
     }
 }
