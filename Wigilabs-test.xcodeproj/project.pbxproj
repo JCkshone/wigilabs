@@ -15,6 +15,7 @@
 		498FF4E724594CF200993BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498FF4E524594CF200993BB6 /* LaunchScreen.storyboard */; };
 		498FF4F224594CF300993BB6 /* Wigilabs_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF4F124594CF300993BB6 /* Wigilabs_testTests.swift */; };
 		498FF4FD24594CF300993BB6 /* Wigilabs_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF4FC24594CF300993BB6 /* Wigilabs_testUITests.swift */; };
+		498FF50C245951B700993BB6 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF50B245951B700993BB6 /* HttpManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		498FF4F824594CF300993BB6 /* Wigilabs-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wigilabs-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		498FF4FC24594CF300993BB6 /* Wigilabs_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wigilabs_testUITests.swift; sourceTree = "<group>"; };
 		498FF4FE24594CF300993BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498FF50B245951B700993BB6 /* HttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		498FF4D924594CF200993BB6 /* Wigilabs-test */ = {
 			isa = PBXGroup;
 			children = (
+				498FF50A2459513E00993BB6 /* Manager */,
 				498FF4DA24594CF200993BB6 /* AppDelegate.swift */,
 				498FF4DC24594CF200993BB6 /* SceneDelegate.swift */,
 				498FF4DE24594CF200993BB6 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				498FF4FE24594CF300993BB6 /* Info.plist */,
 			);
 			path = "Wigilabs-testUITests";
+			sourceTree = "<group>";
+		};
+		498FF50A2459513E00993BB6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				498FF50B245951B700993BB6 /* HttpManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				498FF4DF24594CF200993BB6 /* ViewController.swift in Sources */,
 				498FF4DB24594CF200993BB6 /* AppDelegate.swift in Sources */,
 				498FF4DD24594CF200993BB6 /* SceneDelegate.swift in Sources */,
+				498FF50C245951B700993BB6 /* HttpManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
