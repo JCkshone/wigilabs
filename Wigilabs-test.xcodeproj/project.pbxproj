@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		498FF4DB24594CF200993BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF4DA24594CF200993BB6 /* AppDelegate.swift */; };
 		498FF4DD24594CF200993BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF4DC24594CF200993BB6 /* SceneDelegate.swift */; };
-		498FF4DF24594CF200993BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF4DE24594CF200993BB6 /* ViewController.swift */; };
 		498FF4E224594CF200993BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498FF4E024594CF200993BB6 /* Main.storyboard */; };
 		498FF4E424594CF200993BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498FF4E324594CF200993BB6 /* Assets.xcassets */; };
 		498FF4E724594CF200993BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498FF4E524594CF200993BB6 /* LaunchScreen.storyboard */; };
 		498FF4F224594CF300993BB6 /* Wigilabs_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF4F124594CF300993BB6 /* Wigilabs_testTests.swift */; };
 		498FF4FD24594CF300993BB6 /* Wigilabs_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF4FC24594CF300993BB6 /* Wigilabs_testUITests.swift */; };
 		498FF50C245951B700993BB6 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF50B245951B700993BB6 /* HttpManager.swift */; };
+		498FF5122459614D00993BB6 /* TabBarWithFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF5112459614D00993BB6 /* TabBarWithFloatingButton.swift */; };
+		498FF5152459631000993BB6 /* TabBarWithFloatingButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF5142459631000993BB6 /* TabBarWithFloatingButtonVC.swift */; };
+		498FF51A2459651600993BB6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF5192459651600993BB6 /* UIView.swift */; };
+		498FF51C2459652700993BB6 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF51B2459652700993BB6 /* UIControl.swift */; };
+		498FF51F24596D5900993BB6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF51E24596D5900993BB6 /* HomeVC.swift */; };
+		498FF52324596E2D00993BB6 /* HomeItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF52124596E2D00993BB6 /* HomeItemCollectionViewCell.swift */; };
+		498FF52424596E2D00993BB6 /* HomeItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498FF52224596E2D00993BB6 /* HomeItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		498FF4D724594CF200993BB6 /* Wigilabs-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wigilabs-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		498FF4DA24594CF200993BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		498FF4DC24594CF200993BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		498FF4DE24594CF200993BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		498FF4E124594CF200993BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498FF4E324594CF200993BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498FF4E624594CF200993BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		498FF4FC24594CF300993BB6 /* Wigilabs_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wigilabs_testUITests.swift; sourceTree = "<group>"; };
 		498FF4FE24594CF300993BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		498FF50B245951B700993BB6 /* HttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		498FF5112459614D00993BB6 /* TabBarWithFloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWithFloatingButton.swift; sourceTree = "<group>"; };
+		498FF5142459631000993BB6 /* TabBarWithFloatingButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWithFloatingButtonVC.swift; sourceTree = "<group>"; };
+		498FF5192459651600993BB6 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		498FF51B2459652700993BB6 /* UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControl.swift; sourceTree = "<group>"; };
+		498FF51E24596D5900993BB6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		498FF52124596E2D00993BB6 /* HomeItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		498FF52224596E2D00993BB6 /* HomeItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,13 @@
 		498FF4D924594CF200993BB6 /* Wigilabs-test */ = {
 			isa = PBXGroup;
 			children = (
+				498FF516245964B500993BB6 /* HelperView */,
+				498FF50F2459580300993BB6 /* ViewModel */,
+				498FF50E245957D400993BB6 /* View */,
+				498FF50D245957C400993BB6 /* Model */,
 				498FF50A2459513E00993BB6 /* Manager */,
 				498FF4DA24594CF200993BB6 /* AppDelegate.swift */,
 				498FF4DC24594CF200993BB6 /* SceneDelegate.swift */,
-				498FF4DE24594CF200993BB6 /* ViewController.swift */,
 				498FF4E024594CF200993BB6 /* Main.storyboard */,
 				498FF4E324594CF200993BB6 /* Assets.xcassets */,
 				498FF4E524594CF200993BB6 /* LaunchScreen.storyboard */,
@@ -137,6 +152,73 @@
 				498FF50B245951B700993BB6 /* HttpManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		498FF50D245957C400993BB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		498FF50E245957D400993BB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				498FF510245960F800993BB6 /* Custom */,
+				498FF51D24596D3D00993BB6 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		498FF50F2459580300993BB6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		498FF510245960F800993BB6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				498FF513245962D800993BB6 /* TabBar */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		498FF513245962D800993BB6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				498FF5112459614D00993BB6 /* TabBarWithFloatingButton.swift */,
+				498FF5142459631000993BB6 /* TabBarWithFloatingButtonVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		498FF516245964B500993BB6 /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				498FF5192459651600993BB6 /* UIView.swift */,
+				498FF51B2459652700993BB6 /* UIControl.swift */,
+			);
+			path = HelperView;
+			sourceTree = "<group>";
+		};
+		498FF51D24596D3D00993BB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				498FF52024596DCC00993BB6 /* Cell */,
+				498FF51E24596D5900993BB6 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		498FF52024596DCC00993BB6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				498FF52124596E2D00993BB6 /* HomeItemCollectionViewCell.swift */,
+				498FF52224596E2D00993BB6 /* HomeItemCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +327,7 @@
 			files = (
 				498FF4E724594CF200993BB6 /* LaunchScreen.storyboard in Resources */,
 				498FF4E424594CF200993BB6 /* Assets.xcassets in Resources */,
+				498FF52424596E2D00993BB6 /* HomeItemCollectionViewCell.xib in Resources */,
 				498FF4E224594CF200993BB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498FF4DF24594CF200993BB6 /* ViewController.swift in Sources */,
+				498FF51C2459652700993BB6 /* UIControl.swift in Sources */,
+				498FF51F24596D5900993BB6 /* HomeVC.swift in Sources */,
 				498FF4DB24594CF200993BB6 /* AppDelegate.swift in Sources */,
 				498FF4DD24594CF200993BB6 /* SceneDelegate.swift in Sources */,
+				498FF51A2459651600993BB6 /* UIView.swift in Sources */,
 				498FF50C245951B700993BB6 /* HttpManager.swift in Sources */,
+				498FF5152459631000993BB6 /* TabBarWithFloatingButtonVC.swift in Sources */,
+				498FF5122459614D00993BB6 /* TabBarWithFloatingButton.swift in Sources */,
+				498FF52324596E2D00993BB6 /* HomeItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
